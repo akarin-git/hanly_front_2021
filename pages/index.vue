@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">hanly-2020</h1>
+      <h1 class="title">hanly-2020 hello</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
