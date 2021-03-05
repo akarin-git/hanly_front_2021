@@ -1,0 +1,16 @@
+[
+  {
+    "name": "signup",
+    "path": "/signup",
+    "component": "/Users/sugiyamaakari/Desktop/hanly-front/hanly-2020/pages/signup/index.vue",
+    "chunkName": "pages/signup/index",
+    "_name": "_b3ee507e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/sugiyamaakari/Desktop/hanly-front/hanly-2020/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4ac2289c"
+  }
+]

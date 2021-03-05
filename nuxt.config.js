@@ -1,3 +1,5 @@
+const baseURL = 'https://hanly.herokuapp.com/'
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -17,7 +19,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['ress', '~/assets/css/foundation.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -42,7 +44,12 @@ export default {
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    baseURL
+  },
+  env:{
+    baseURL
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
