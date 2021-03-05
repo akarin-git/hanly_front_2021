@@ -45,10 +45,10 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL
+    baseURL,
   },
-  env:{
-    baseURL
+  env: {
+    baseURL,
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -60,5 +60,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-  buildDir: 'nuxt-dist'
+  buildDir: 'nuxt-dist',
 }
